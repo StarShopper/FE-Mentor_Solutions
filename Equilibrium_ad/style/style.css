@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding: 80px;
+    background-color: #0d1a2d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.ad{
+    width: 300px;
+    height: 500px;
+
+    background-color: #15273f;
+
+    position: relative;
+
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.ad__photo{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ad__photo:hover{
+    transition: 0;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.ad__header{
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.ad__description{
+    font-weight: 300;
+    opacity: 50%;
+
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.ad__info{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ad__ruby{
+    font-weight: 700;
+    color: #32babd;
+    position: relative;
+}
+.ad__time{
+    opacity: 50%;
+    padding-bottom: 20px;
+}
+
+.ad__creator::before{
+    display: block;
+    content: "";
+    border: 1px solid #1a2c44;
+}
+
+.ad__creator{
+    align-items: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ad__user-ph{
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+
+}
+
+.ad__createdBy{
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3ff;
+    cursor: pointer;
+}
+
+img{
+    vertical-align: middle;
+}
